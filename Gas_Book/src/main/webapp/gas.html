@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+
+<head>
+	<title></title>
+	<style>
+		h1 {
+			background-color: bisque;
+			text-align: center;
+		}
+
+		form {
+			background-color: transparent;
+			text-align: justify;
+			font-size: medium;
+		}
+
+		body {
+			background-color: #dab141
+		}
+
+		.btn{
+			height: 50px;
+			width: 441px;
+			background-color: red;
+			text-decoration: solid;
+			font-size: 20px;
+		}
+
+	</style>
+</head>
+
+
+
+<body>
+	<h1>Booking form </h1>
+	<form action="BookCtrl" method="post">
+
+		<table align="center" style="margin: 0px auto; font-family: 'Times New Roman', Times, serif; font-size: 20px; border-style: double; padding: 50px; background-color: aqua;" >
+			<tr>
+				<td>Customer Name :</td>
+				<td>
+					<input type="text" name="cname">
+				</td>
+			</tr>
+
+			<tr>
+				<td>Customer I'd</td>
+				<td>
+					<input type="number" name="cid">
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>Aadhar Number..</td>
+				<td>
+					<input type="number" name="ano">
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>Address</td>
+				<td>
+
+					<input type="text" name="add">
+
+				</td>
+			</tr>
+
+			<tr>
+				<td> Order Date nd Time </td>
+				<td>
+					<input type="text" name="dt">
+
+				</td>
+			</tr>
+			<TR>
+				<TD class="select"> Type Of Cylinder
+				<td>
+					<select>
+						<option value="mercedes" name="ctype">Small 7.5Kg</option>
+						<option value="audi" name="ctype">Big 17.5Kg</option>
+					</select>
+				</td>
+				</TD>
+			</TR>
+
+			<tr>
+				<td style="" > 
+					
+				</td>
+				
+			</tr>
+
+			
+			<tr>
+				<td></td>
+				<td></td>
+			</tr>
+
+		</table>
+		<center>		<input type="submit" value="Booking Now..!!"  class="btn"></center>
+
+	
+	</form>
+
+
+	
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+
+.text{
+    text-align: left;
+}
+body {
+
+    background-color: rgb(51, 149, 149);
+    background-color: cadetblue;
+}
+h1{
+    padding-left: 500px;
+    align-items:center ;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50 px;
+    
+}
+p{
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+}
+.first{
+    background-color: aqua;
+}
+  
